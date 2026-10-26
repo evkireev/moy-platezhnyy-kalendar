@@ -1,0 +1,9 @@
+# Generated browser profiles, screenshots and test downloads.
+/tests/artifacts/*
+!/tests/artifacts/*-results.json
+
+node_modules/
+*.log
+
+# Local reference workbook; never publish to GitHub.
+/Пример календаря.xlsx
