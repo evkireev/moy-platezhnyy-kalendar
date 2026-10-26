@@ -1,0 +1,20 @@
+{
+  "browser": "chrome",
+  "passed": [
+    "planned checkbox opens correct defaults; cancel changes nothing",
+    "partial income creates green fact and independent remainder",
+    "actual part editable and total/row protected",
+    "future actual date cannot be saved",
+    "editor moves only remainder across months; Undo writes new revision",
+    "uncheck is immediate; Undo restores exact part",
+    "Undo expires and next successful change removes it",
+    "expense full payment is orange and no planned duplicate remains",
+    "overpayment preview and single obligation update",
+    "cancel remainder preserves fact and records current cancellation",
+    "restore merges existing and cancelled remainder on chosen date",
+    "several actual parts survive unchecking one",
+    "Undo write failure leaves saved and displayed amounts unchanged",
+    "relogin preserves payments but not Undo",
+    "delete confirmation includes actual money; removes all parts"
+  ]
+}

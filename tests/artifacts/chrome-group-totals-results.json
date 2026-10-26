@@ -1,0 +1,10 @@
+{
+  "browser": "chrome",
+  "passed": [
+    "expanded group cells empty",
+    "collapsed sums combine rows and dates including archive; exclude other rows",
+    "hidden past days preserve full monthly group total and forecast",
+    "reopening clears summary and restores rows without changing money",
+    "collapsed totals persist after reload and respect selected month"
+  ]
+}

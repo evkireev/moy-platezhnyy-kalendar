@@ -1,0 +1,11 @@
+{
+  "browser": "yandex",
+  "passed": [
+    "expense title and permanent add button",
+    "hide past days keeps today, alignment and calculations",
+    "toggle restores hidden operations",
+    "setting persists after login and other months remain full",
+    "date change hides yesterday without closing editor",
+    "old saved settings without flag still open"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "browser": "yandex",
+  "passed": [
+    "create monthly rule with weekend and finite end using form",
+    "January weekend spills to February; navigating creates no duplicates",
+    "single manual move changes only selected occurrence and Undo removes exception",
+    "this-and-future previews replacement of selected manual date",
+    "partial payment stays intact while future rule changes",
+    "deleted occurrence stays deleted after change and reload",
+    "cancelled selected occurrence remains unchanged by series edits",
+    "archive warns about active series and forbids deleting referenced row",
+    "stop keeps manual future exception and removes ordinary future plans",
+    "stopped rules, exceptions, archive and forecast survive relogin"
+  ]
+}

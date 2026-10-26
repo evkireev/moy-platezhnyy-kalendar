@@ -1,0 +1,15 @@
+{
+  "browser": "yandex-recurring",
+  "passed": [
+    "real pointer drag moves only remainder; no accidental editor; Undo",
+    "same day drop is no mutation",
+    "other row is invalid target",
+    "outside days cancels without mutation",
+    "Escape cancels active drag and releases capture",
+    "actual payment cannot be dragged",
+    "click below drag threshold opens editor",
+    "edge autoscroll runs and stops after cancellation",
+    "card revealed by More remains draggable",
+    "failed drop save leaves persisted and rendered date unchanged"
+  ]
+}

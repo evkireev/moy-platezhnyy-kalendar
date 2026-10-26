@@ -1,0 +1,23 @@
+{
+  "browser": "chrome",
+  "executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "passed": [
+    "file protocol and registration",
+    "navigation and initial focus",
+    "client rows and duplicate validation",
+    "groups and expense rows",
+    "add operation with toolbar",
+    "double click preselects date and row; forecast matches",
+    "invalid amount and modal cancel preserve state",
+    "four cards expand and collapse; all included in sum",
+    "delete operation requires confirmation",
+    "manual opening, automatic carry and reset",
+    "manual order, rename and archive",
+    "profile changes and password update",
+    "reload requires login and keeps data",
+    "file storage persists after full browser restart",
+    "sticky headings, footer, long numbers and screenshot",
+    "no app errors or external network"
+  ],
+  "profile": "E:\\Проекты ИИ\\Планировщик задач\\tests\\artifacts\\chrome-profile-JaKv5Y"
+}

@@ -1,0 +1,21 @@
+{
+  "browser": "yandex",
+  "passed": [
+    "real downloaded JSON excludes credentials and contains complete finance data",
+    "export preserves Undo and Undo retains export metadata",
+    "malformed, newer and oversized files never mutate storage",
+    "cancel valid import is side-effect free",
+    "quota failure during import preserves data and confirmation",
+    "safety download then import keeps auth, export date, forecasts and safe text",
+    "export download still succeeds when metadata write fails",
+    "external revision refuses pending import",
+    "valid replacement requires exact confirmation; cancellation preserves old profile",
+    "replacement write failure keeps complete old profile",
+    "replacement increments revision, resets meta and invalidates other session",
+    "cross-browser copy restores in clean profile without old password",
+    "corrupt storage can be replaced only after confirmation",
+    "20 real changes and 7 calendar days highlight export; metadata persists",
+    "import replaces timezone and opens its current month without changing identity",
+    "closing during asynchronous file read or password derivation cancels work"
+  ]
+}

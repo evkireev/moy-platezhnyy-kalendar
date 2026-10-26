@@ -1,0 +1,16 @@
+{
+  "browser": "yandex",
+  "passed": [
+    "long names, long sums and HTML text are safe",
+    "archive with operations remains visible, unavailable for new operation",
+    "group deletion keeps expense rows and operations",
+    "create a row inside operation preserves draft",
+    "failed storage write keeps old state and entered form",
+    "external revision requires reload and does not overwrite",
+    "changing external auth closes the old session",
+    "corrupt storage is not replaced with empty profile",
+    "keyboard Enter saves, Escape discards; earlier first month supported",
+    "no repeated DOM rendering without date change; rollover keeps editor",
+    "storage unavailable blocks startup"
+  ]
+}
